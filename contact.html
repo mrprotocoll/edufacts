@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufacts: Contact Us</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-nav">
+            <div class="content">
+                <div class="f-left">
+                    <a href="mailto:contact@edufacts.com" class="nav-link">contact@edufacts.com</a>
+                    <a href="tel:089-088-442-928" class="nav-link">| 089-088-442-928</a>
+                </div>
+                <div class="f-right">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="search website"><input type="submit" value="search">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="content">
+            <nav class="navbar">
+                <a href="index.html" class="nav-logo">Edufacts</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="training.html" class="nav-link">Events</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="admission.html" class="nav-link btn btn-main">Enroll Now</a>
+                    </li>
+                   
+                </ul>
+                <div class="nav-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="banner-short">
+        <div class="overlay">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p class="txt-white">Contact us for all enquiries</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome">
+        <div class="content">
+            <div class="row content-txt">
+                <div class="col-6 box-right">
+                    
+                    <div class="grp">
+                        <h2 class="color-head">Get In Touch With Us</h2>
+                        <!-- <p>Kindly fill the contact form or cntact us through our contact details below</p> -->
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque velit non.</p>
+                        <!-- <span class=""></span> -->
+                        <hr>
+                        <ul class="m-top-5">
+                            <li class="row"><span class="bold col-2">Address:</span> 43 adbola crescent, Ikeja</li>
+                            <li class="row"><span class="bold col-2">Tel:</span> 08976644442</li>
+                            <li class="row"><span class="bold col-2">Email:</span> contact@edufacts.com</li>
+                            
+                        </ul>
+                        <span class="m-top-5"></span>
+                    </div>
+                </div>
+                <div class="col-6 border box-left">
+                    <!-- <h1></h1> -->
+                    <form action="#" method="get">
+                        <input type="email" class="form-input" placeholder="Enter your Email Address">
+                        <input type="text" class="form-input" placeholder="Telephone">
+                        <input type="text" class="form-input" placeholder="Subject">
+                        <textarea name="" id="" rows="5">Message</textarea>
+                        <input type="submit" class="btn btn-main" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="content content-txt">
+            <div class="row">
+                <div class="col-4 box-right">
+                    <h5>About</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eveniet nemo qui dolorum quaerat quod aspernatur omnis, fugiat animi nulla quo exercitationem aliquid quidem placeat iure eaque nobis numquam odio.</p>
+                </div>
+
+                <div class="col-4 box-left box-right">
+                    <h5>Contacts</h5>
+                    <ul class="links">
+                        <li><span>Address:</span> 43 adbola crescent, Ikeja</li>
+                        <li><span>Telephone:</span> 08976644442</li>
+                        <li><span>Email:</span> contact@edufacts.com</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-2 box-left box-right">
+                    <h5>Quick Links</h5>
+                    <ul class="links">
+                        <li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Home</a> </li>
+                        <li><a href="admission.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Admission</a> </li>
+                        <li><a href="about.html"><i class="fa fa-caret-right" aria-hidden="true"></i> About</a> </li>
+                        <li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Contact</a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-2 box-left">
+                    <h5>Follow Us</h5>
+                    <ul class="links">
+                        <li><a href="#"><span class=" fab fa-facebook-f"></span> facebook</a></li>
+                        <li><a href="#"><span class="fbb fab fa-instagram"></span> Instagram</a></li>
+                        <li><a href="#"><span class="fab fa-twitter"></span> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy txt-center m-top-5">
+                <p> &copy; 2021, Designed and Developed By <a href="team.html"> Group C [Educational Website]</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        const hamburger = document.querySelector(".nav-icon");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
