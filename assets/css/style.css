@@ -572,7 +572,17 @@ img{
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         z-index:999;
     }
-
+    .faci-image{
+        width: 70%;
+        border-radius: 50%;
+        height: auto;
+        min-height: 120px;
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+    .faci{
+        text-align: center !important;
+    }
     .f-right{
         text-align: center !important;
         float: unset !important;
